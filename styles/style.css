@@ -6,3 +6,158 @@ Green: #00B172
 White: #FFF
 
 */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px
+}
+
+#navbar {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     } 
+
+#logo img{
+    height: 50px;
+    padding: 10px 10px 5px 20px;
+    }
+
+#menu a {
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 0.9 rem ;
+   }
+
+#menu li{
+    list-style: none;
+    display:inline;
+    padding: 5px 30px 5px 10px;
+    }   
+
+#portada {
+    background-image: url(../images/landing.jpg);
+    background-image: no-repeat;
+    background-position: center;
+    background-size: 100vw;
+    background-color: #ffffff;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+h1{
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+}    
+
+h2{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+}  
+
+#whats h3{
+    color: #1A1A1A;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 8px;
+    display: inline;
+   
+    
+       } 
+
+#whats h4{
+    color: #00B172 ;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+} 
+
+#whats img {
+    height: 70px;
+    width: 70px;
+    display: block;
+    margin: auto;
+    }
+
+#destacats {
+    display: flex;
+    justify-content: space-around;    
+}  
+
+#destacats p{
+    color: #1A1A1A ;
+    font-size: 18px;  
+    text-align: center;
+}
+
+.cuadrat{
+    width: 30%;
+}
+#whats {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+#titol {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#green{
+    background-color: #00B172;
+    padding-top: 50px;
+    margin: 0% 3%;
+    padding: 7%;
+}
+
+#green h3{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    border-bottom: 5px solid #ffffff;
+    display: inline;
+    }
+
+#contenido-verde{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+#logo-blanc{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    }
+
+#app-img{
+    width: 100%;
+}
+
+#contenido-verde p{
+    font-weight: 100;
+}
+
+#contenido-verde h4{
+    font-weight: 800;
+    font-size: 20px;
+}
+
